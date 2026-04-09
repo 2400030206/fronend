@@ -1,0 +1,6 @@
+/* Custom CSS can go here. 
+Vite's default boilerplate was removed because it conflicted with Bootstrap. */
+
+body {
+    background-color: #f8f9fa;
+}
