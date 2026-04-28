@@ -5,7 +5,7 @@ export const REFRESH_TOKEN_KEY = 'student-portfolio-refresh-jwt';
 
 // Create an Axios instance with a base URL
 const api = axios.create({
-    baseURL: '/api',
+    baseURL: import.meta.env.VITE_API_URL || 'https://fullstackreview-3.onrender.com/api',
     timeout: 10000,
 });
 
